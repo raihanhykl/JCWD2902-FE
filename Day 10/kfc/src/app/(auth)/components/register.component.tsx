@@ -21,6 +21,8 @@ import Link from "next/link";
 import { api } from "@/config/axios.config";
 import { toast } from "sonner";
 import { Loader2 } from "lucide-react";
+import { useRouter } from "next/navigation";
+import { registerAction } from "@/actions/actions.auth";
 export default function RegisterComponent({}: Props) {
   const form = useForm<z.infer<typeof registerSchema>>({
     resolver: zodResolver(registerSchema),
@@ -33,10 +35,17 @@ export default function RegisterComponent({}: Props) {
     handleSubmit,
   } = form;
 
+  const router = useRouter();
+
   const onSubmit = async (values: z.infer<typeof registerSchema>) => {
-    await api.post("/users", values);
-    toast.success("Registrasi Berhasil");
-    form.reset();
+    await registerAction(values).then((e: any) => {
+      try {
+        toast.success("Registrasi Berhasil");
+        router.push("/login");
+      } catch (error: any) {
+        toast.error("Registrasi Gagal");
+      }
+    });
   };
 
   return (

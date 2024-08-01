@@ -23,6 +23,7 @@ import { toast } from "sonner";
 import { Loader2 } from "lucide-react";
 import Image from "next/image";
 import { loginAction } from "@/actions/actions.auth";
+import { useRouter } from "next/navigation";
 export default function LoginComponent({}: Props) {
   const form = useForm<z.infer<typeof loginSchema>>({
     resolver: zodResolver(loginSchema),
@@ -35,11 +36,13 @@ export default function LoginComponent({}: Props) {
     handleSubmit,
   } = form;
 
+  const router = useRouter();
+
   const onSubmit = async (values: z.infer<typeof loginSchema>) => {
     await loginAction(values)
       .then((e: any) => {
         toast.success(e.message);
-        form.reset();
+        router.push("/");
       })
       .catch((e: any) => {
         toast.error(e.message);
