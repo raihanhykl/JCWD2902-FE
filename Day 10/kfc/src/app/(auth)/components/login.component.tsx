@@ -22,6 +22,7 @@ import { api } from "@/config/axios.config";
 import { toast } from "sonner";
 import { Loader2 } from "lucide-react";
 import Image from "next/image";
+import { loginAction } from "@/actions/actions.auth";
 export default function LoginComponent({}: Props) {
   const form = useForm<z.infer<typeof loginSchema>>({
     resolver: zodResolver(loginSchema),
@@ -35,9 +36,14 @@ export default function LoginComponent({}: Props) {
   } = form;
 
   const onSubmit = async (values: z.infer<typeof loginSchema>) => {
-    await api.post("/users", values);
-    toast.success("Registrasi Berhasil");
-    form.reset();
+    await loginAction(values)
+      .then((e: any) => {
+        toast.success(e.message);
+        form.reset();
+      })
+      .catch((e: any) => {
+        toast.error(e.message);
+      });
   };
 
   return (
