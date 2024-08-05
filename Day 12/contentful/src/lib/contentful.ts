@@ -1,3 +1,5 @@
+/** @format */
+
 const contentful = require("contentful");
 
 export const client = contentful.createClient({
