@@ -12,15 +12,17 @@ export default async function NavbarDesktop() {
     <div className="w-full shadow sticky top-0 bg-white z-50">
       <div className="  max-w-[1220px]  2xl:max-w-[1440px] m-auto w-full p-3 px-[15px] flex justify-between">
         <div className="flex">
-          <Image
-            src={Logo}
-            alt=""
-            width={150}
-            height={78}
-            className="w-[150px] h-[78px]"
-          />
+          <Link href={"/"}>
+            <Image
+              src={Logo}
+              alt=""
+              width={150}
+              height={78}
+              className="w-[150px] h-[78px]"
+            />
+          </Link>
           <Link
-            href="/"
+            href="/menu"
             className="flex items-center w-[85px] text-lg  justify-end font-bold"
           >
             MENU

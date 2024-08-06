@@ -116,5 +116,151 @@
       "category": "Dessert",
       "img_src": "https://static.order.kfcku.com/images/category/lg/Dessert.jpg?v=46oxZg"
     }
+  ],
+  "menu": [
+    {
+      "id": 1,
+      "name": "MDL Burger Combo",
+      "category": "Spesial",
+      "desc": "1 Crispy Burger + 1/2 Chicken Ball + Fanta Float + 1 benefit card game",
+      "price": "30000",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/12988.jpg?v=gbx88L"
+    },
+    {
+      "id": 2,
+      "name": "MDL Chicken Combo",
+      "category": "Spesial",
+      "desc": "1 pc Chicken + 1 Rice + 1 Fanta Float + 1 benefit card game",
+      "price": "30000",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/12987.jpg?v=gbx88L"
+    },
+    {
+      "id": 3,
+      "name": "Back To School 1",
+      "category": "Spesial",
+      "desc": "1 Cream Soup + 1 Fanta Float",
+      "price": "13636",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/13317.jpg?v=gbx88L"
+    },
+    {
+      "id": 4,
+      "name": "Back To School 2",
+      "category": "Spesial",
+      "desc": "1 Spaghetti Deluxe + 1 Fanta Float",
+      "price": "30000",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/13320.jpg?v=gbx88L"
+    },
+    {
+      "id": 5,
+      "name": "Paket Seru 3",
+      "category": "Spesial",
+      "desc": "1 Fish Burger + 1 Mocca Float",
+      "price": "27273",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/13194.jpg?v=gbx88L"
+    },
+    {
+      "id": 6,
+      "name": "Paket Seru 4",
+      "category": "Spesial",
+      "desc": "1 Pc Chicken + 1 Rice",
+      "price": "20000",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/13195.jpg?v=gbx88L"
+    },
+    {
+      "id": 7,
+      "name": "MDL Burger Combo",
+      "category": "Combo",
+      "desc": "1 Crispy Burger + 1/2 Chicken Ball + Fanta Float + 1 benefit card game",
+      "price": "30000",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/12988.jpg?v=gbx88L"
+    },
+    {
+      "id": 8,
+      "name": "MDL Chicken Combo",
+      "category": "Combo",
+      "desc": "1 pc Chicken + 1 Rice + 1 Fanta Float + 1 benefit card game",
+      "price": "30000",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/12987.jpg?v=gbx88L"
+    },
+    {
+      "id": 9,
+      "name": "Back To School 1",
+      "category": "Combo",
+      "desc": "1 Cream Soup + 1 Fanta Float",
+      "price": "13636",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/13317.jpg?v=gbx88L"
+    },
+    {
+      "id": 10,
+      "name": "Back To School 2",
+      "category": "Combo",
+      "desc": "1 Spaghetti Deluxe + 1 Fanta Float",
+      "price": "30000",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/13320.jpg?v=gbx88L"
+    },
+    {
+      "id": 11,
+      "name": "Paket Seru 3",
+      "category": "Combo",
+      "desc": "1 Fish Burger + 1 Mocca Float",
+      "price": "27273",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/13194.jpg?v=gbx88L"
+    },
+    {
+      "id": 12,
+      "name": "Paket Seru 4",
+      "category": "Combo",
+      "desc": "1 Pc Chicken + 1 Rice",
+      "price": "20000",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/13195.jpg?v=gbx88L"
+    },
+    {
+      "id": 13,
+      "name": "MDL Burger Combo",
+      "category": "Alacarte",
+      "desc": "1 Crispy Burger + 1/2 Chicken Ball + Fanta Float + 1 benefit card game",
+      "price": "30000",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/12988.jpg?v=gbx88L"
+    },
+    {
+      "id": 14,
+      "name": "MDL Chicken Combo",
+      "category": "Alacarte",
+      "desc": "1 pc Chicken + 1 Rice + 1 Fanta Float + 1 benefit card game",
+      "price": "30000",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/12987.jpg?v=gbx88L"
+    },
+    {
+      "id": 15,
+      "name": "Back To School 1",
+      "category": "Alacarte",
+      "desc": "1 Cream Soup + 1 Fanta Float",
+      "price": "13636",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/13317.jpg?v=gbx88L"
+    },
+    {
+      "id": 16,
+      "name": "Back To School 2",
+      "category": "Alacarte",
+      "desc": "1 Spaghetti Deluxe + 1 Fanta Float",
+      "price": "30000",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/13320.jpg?v=gbx88L"
+    },
+    {
+      "id": 17,
+      "name": "Paket Seru 3",
+      "category": "Alacarte",
+      "desc": "1 Fish Burger + 1 Mocca Float",
+      "price": "27273",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/13194.jpg?v=gbx88L"
+    },
+    {
+      "id": 18,
+      "name": "Paket Seru 4",
+      "category": "Alacarte",
+      "desc": "1 Pc Chicken + 1 Rice",
+      "price": "20000",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/13195.jpg?v=gbx88L"
+    }
   ]
 }
